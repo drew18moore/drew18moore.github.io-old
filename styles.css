@@ -45,7 +45,7 @@ nav a {
 /* Main */
 #profile-card {
     display: flex;
-    margin: 50px auto;
+    margin: 100px auto;
     width: 1100px;
     overflow: hidden;
     /* outline: 1px solid red; */
