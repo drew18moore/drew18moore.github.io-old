@@ -5,7 +5,8 @@
     font-family: Poppins, sans-serif;
 }
 
-html, body {
+html,
+body {
     background-color: #212121;
     overflow-x: hidden;
 }
@@ -15,7 +16,10 @@ main {
     flex-direction: column;
 }
 
-h1, h2, a, li {
+h1,
+h2,
+a,
+li {
     color: white;
 }
 
@@ -106,7 +110,7 @@ nav a {
     font-size: 25px;
     border: none;
     border-radius: 12px;
-    margin: auto 50px 25px auto;
+    margin: auto 0;
     cursor: pointer;
 }
 
@@ -169,6 +173,10 @@ nav a {
     #profile-card img {
         width: 250px;
         margin: 0 auto;
+    }
+
+    #profile-card button {
+        margin-top: 15px;
     }
 
     .hamburger {
