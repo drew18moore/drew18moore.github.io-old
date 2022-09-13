@@ -118,6 +118,7 @@ nav a {
 }
 
 #skills-list li {
+    display: flex;
     border: 1px solid lightgray;
     border-radius: 12px;
     font-size: 2rem;
@@ -125,6 +126,13 @@ nav a {
     padding: 10px 20px;
     list-style-type: none;
     width: fit-content;
+}
+
+.skill-img {
+    display: block;
+    padding-right: 10px;
+    height: 2rem;
+    align-self: center;
 }
 
 @media (max-width: 1250px) {
