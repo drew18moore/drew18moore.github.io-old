@@ -161,14 +161,14 @@ nav a {
 
 @media (max-width: 950px) {
     #profile-card {
-        outline: 1px solid red;
-        display: flex;
-        margin: 150px auto;
+        margin: 100px auto;
+        flex-direction: column;
         width: 100%;
     }
 
     #profile-card img {
-        display: none;
+        width: 250px;
+        margin: 0 auto;
     }
 
     .hamburger {
