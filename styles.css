@@ -24,6 +24,9 @@ header {
 }
 
 nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
     padding: 0 2em;
     display: flex;
     justify-content: space-between;
@@ -95,7 +98,7 @@ nav a {
 
 /* skills-card */
 #skills-card {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin: 0 auto;
     margin-top: 150px;
     width: 1100px;
@@ -108,7 +111,7 @@ nav a {
 }
 
 #skills-list {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     display: flex;
     flex-wrap: wrap;
     list-style-position: inside;
