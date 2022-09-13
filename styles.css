@@ -5,8 +5,9 @@
     font-family: Poppins, sans-serif;
 }
 
-body {
+html, body {
     background-color: #212121;
+    overflow-x: hidden;
 }
 
 main {
@@ -51,6 +52,19 @@ nav a {
     text-decoration: none;
     font-size: 20px;
     padding: 1rem 1em;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: white;
 }
 
 /* Main */
@@ -142,5 +156,31 @@ nav a {
 
     #skills-card {
         width: 88%;
+    }
+}
+
+@media (max-width: 950px) {
+    #profile-card {
+        outline: 1px solid red;
+        display: flex;
+        margin: 150px auto;
+        width: 100%;
+    }
+
+    #profile-card img {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links {
+        position: fixed;
+        left: -100%;
+        top: 60px;
+        gap: 0;
+        flex-direction: column;
+        width: 100%;
     }
 }
