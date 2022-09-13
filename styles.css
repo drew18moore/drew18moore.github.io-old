@@ -69,6 +69,8 @@ nav a {
     height: 3px;
     margin: 5px auto;
     background-color: white;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 /* Main */
@@ -183,6 +185,18 @@ nav a {
         display: block;
     }
 
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
     .nav-links {
         position: fixed;
         left: -100%;
@@ -190,5 +204,17 @@ nav a {
         gap: 0;
         flex-direction: column;
         width: 100%;
+        text-align: center;
+        background-color: #212121;
+        transition: 0.3s;
+    }
+
+    .nav-links li {
+        display: block;
+        margin: 15px auto;
+    }
+
+    .nav-links.active {
+        left: 0;
     }
 }
