@@ -24,10 +24,6 @@ li {
 }
 
 /* Navbar */
-header {
-    border-bottom: 1px solid black;
-}
-
 nav {
     position: fixed;
     top: 0;
