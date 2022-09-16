@@ -1,57 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width", initial-scale="1.0" />
-    <title>Portfolio</title>
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link rel="stylesheet" href="/styles.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <div class="logo">
-                <a class="logo-text" href="/index.html">Drew Moore</a>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width"
+            ,
+            initial-scale="1.0"
+        />
+        <title>Portfolio</title>
+        <link
+            href="https://fonts.googleapis.com/css?family=Poppins"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="/styles.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <a class="logo-text" href="/index.html">Drew Moore</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Skills</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div id="profile-card">
+                <img src="./Images/profile-picture.png" alt="profile-picture" />
+                <div id="profile-text">
+                    <h1>Hello There!</h1>
+                    <h2>
+                        I am a front-end developer with a degree in Computer
+                        Science
+                    </h2>
+                    <button>Resume</button>
+                </div>
             </div>
-            <ul class="nav-links">
-                <li><a href="">Home</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+            <div id="skills-card">
+                <h1>Skills</h1>
+                <ul id="skills-list">
+                    <li>
+                        <img
+                            class="skill-img"
+                            src="./Images/logos/js-logo.png"
+                            alt="js-logo"
+                        />Javascript
+                    </li>
+                    <li>
+                        <img
+                            class="skill-img"
+                            src="./Images/logos/html-logo.png"
+                            alt="js-logo"
+                        />HTML
+                    </li>
+                    <li>
+                        <img
+                            class="skill-img"
+                            src="./Images/logos/css-logo.png"
+                            alt="js-logo"
+                        />CSS
+                    </li>
+                    <li>
+                        <img
+                            class="skill-img"
+                            src="./Images/logos/py-logo.png"
+                            alt="js-logo"
+                        />Python
+                    </li>
+                    <li>
+                        <img
+                            class="skill-img"
+                            src="./Images/logos/java-logo.png"
+                            alt="js-logo"
+                        />Java
+                    </li>
+                    <li>
+                        <img
+                            class="skill-img"
+                            src="./Images/logos/cs-logo.png"
+                            alt="js-logo"
+                        />C#
+                    </li>
+                    <li>
+                        <img
+                            class="skill-img"
+                            src="./Images/logos/flask-logo.png"
+                            alt="js-logo"
+                        />Flask
+                    </li>
+                    <li>
+                        <img
+                            class="skill-img"
+                            src="./Images/logos/sqlalchemy-logo.png"
+                            alt="js-logo"
+                        />SQLAlchemy
+                    </li>
+                    <li>
+                        <img
+                            class="skill-img"
+                            src="./Images/logos/unity-logo.png"
+                            alt="js-logo"
+                        />Unity
+                    </li>
+                    <li>
+                        <img
+                            class="skill-img"
+                            src="./Images/logos/jquery-logo.png"
+                            alt="js-logo"
+                        />JQuery
+                    </li>
+                    <li>
+                        <img
+                            class="skill-img"
+                            src="./Images/logos/git-logo.png"
+                            alt="js-logo"
+                        />Git
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </header>
-    <main>
-        <div id="profile-card">
-            <img src="./profile-picture.png" alt="profile-picture" />
-            <div id="profile-text">
-                <h1>Hello There!</h1>
-                <h2>I am a front-end developer with a degree in Computer Science</h2>
-                <button>Resume</button>
+            <div id="projects-card">
+                <h1>Projects</h1>
+                <div id="projects-list">
+                    <div class="project-item">
+                        <h2>Niner Miner</h2>
+                        <img
+                            class="project-img"
+                            src="./Images/projects/niner-miner-img.png"
+                            alt="niner-miner-img"
+                        />
+                    </div>
+                </div>
             </div>
-        </div>
-        <div id="skills-card">
-            <h1>Skills</h1>
-            <ul id="skills-list">
-                <li><img class="skill-img" src="./logos/js-logo.png" alt="js-logo">Javascript</li>
-                <li><img class="skill-img" src="./logos/html-logo.png" alt="js-logo">HTML</li>
-                <li><img class="skill-img" src="./logos/css-logo.png" alt="js-logo">CSS</li>
-                <li><img class="skill-img" src="./logos/py-logo.png" alt="js-logo">Python</li>
-                <li><img class="skill-img" src="./logos/java-logo.png" alt="js-logo">Java</li>
-                <li><img class="skill-img" src="./logos/cs-logo.png" alt="js-logo">C#</li>
-                <li><img class="skill-img" src="./logos/flask-logo.png" alt="js-logo">Flask</li>
-                <li><img class="skill-img" src="./logos/sqlalchemy-logo.png" alt="js-logo">SQLAlchemy</li>
-                <li><img class="skill-img" src="./logos/unity-logo.png" alt="js-logo">Unity</li>
-                <li><img class="skill-img" src="./logos/jquery-logo.png" alt="js-logo">JQuery</li>
-                <li><img class="skill-img" src="./logos/git-logo.png" alt="js-logo">Git</li>
-            </ul>
-        </div>
-    </main>
-    <script src="./index.js"></script>
-</body>
+        </main>
+        <script src="./index.js"></script>
+    </body>
 </html>
