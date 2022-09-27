@@ -137,7 +137,7 @@ main {
     display: flex;
     border: 1px solid lightgray;
     border-radius: 12px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 10px;
     padding: 10px 20px;
     list-style-type: none;
@@ -145,10 +145,14 @@ main {
 }
 
 .skill-img {
+    /* outline: 1px solid red; */
     display: block;
-    padding-right: 10px;
     height: 2rem;
     align-self: center;
+}
+
+#skills-list li p {
+    margin-left: 10px;
 }
 
 /* projects card */
@@ -188,6 +192,10 @@ main {
     #skills-card {
         width: 88%;
     }
+
+    #projects-card {
+        width: 88%;
+    }
 }
 
 @media (max-width: 950px) {
@@ -204,6 +212,10 @@ main {
 
     #profile-card button {
         margin-top: 15px;
+    }
+
+    #skills-list li p {
+        display: none;
     }
 
     .hamburger {
