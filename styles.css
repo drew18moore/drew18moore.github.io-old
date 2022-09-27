@@ -184,6 +184,20 @@ main {
     width: 100%;
 }
 
+.img-container {
+    position: relative;
+}
+
+.img-container:hover::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.78) 80%);
+}
+
 @media (max-width: 1250px) {
     #profile-card {
         width: 88%;
