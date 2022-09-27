@@ -147,7 +147,7 @@ main {
 .skill-img {
     /* outline: 1px solid red; */
     display: block;
-    height: 2rem;
+    height: 1.5rem;
     align-self: center;
 }
 
@@ -200,7 +200,7 @@ main {
 
 @media (max-width: 950px) {
     #profile-card {
-        margin: 100px auto;
+        margin-top: 100px;
         flex-direction: column;
         width: 100%;
     }
@@ -214,8 +214,17 @@ main {
         margin-top: 15px;
     }
 
+    #skills-card {
+        width: 100%;
+    }
+
+    .skill-img {
+        height: 1rem;
+    }
+
     #skills-list li p {
-        display: none;
+        /* display: none; */
+        font-size: 1rem;
     }
 
     .hamburger {
