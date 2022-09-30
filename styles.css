@@ -65,7 +65,7 @@ nav a {
 }
 
 /* Main */
-main {
+#home-main {
     display: flex;
     flex-direction: column;
     gap: 300px;
