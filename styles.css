@@ -104,14 +104,17 @@ nav a {
     font-size: 25px;
 }
 
-#profile-text button {
+#resume-btn {
     width: 150px;
     height: 50px;
     font-size: 25px;
     border: none;
     border-radius: 12px;
-    margin: auto 0;
     cursor: pointer;
+}
+
+#resume-form {
+    margin: auto 0;
 }
 
 /* skills-card */
@@ -229,7 +232,7 @@ nav a {
         margin: 0 auto;
     }
 
-    #profile-card button {
+    #resume-btn {
         margin-top: 15px;
     }
 
