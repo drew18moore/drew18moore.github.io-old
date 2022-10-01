@@ -203,7 +203,7 @@ nav a {
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.78) 80%);
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.78));
 }
 
 @media (max-width: 1250px) {
