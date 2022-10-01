@@ -189,6 +189,7 @@ nav a {
     border-radius: 12px;
     position: relative;
     cursor: pointer;
+    user-select: none;
 }
 
 .img-container:hover::after {
@@ -211,7 +212,7 @@ nav a {
         width: 88%;
     }
 
-    #projects-card {
+    #projects-main {
         width: 88%;
     }
 }
