@@ -37,7 +37,7 @@ nav {
 }
 
 .nav-links {
-    display: inline-block;
+    display: flex;
 }
 
 .nav-links li {
@@ -49,6 +49,21 @@ nav a {
     text-decoration: none;
     font-size: 20px;
     padding: 1rem 1em;
+}
+
+#nav-socials {
+    width: fit-content;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-socials-links {
+    padding: 0;
+}
+
+nav img {
+    vertical-align: middle;
+    width: 25px;
 }
 
 .hamburger {
