@@ -233,7 +233,7 @@ nav a {
 
 .project-links {
     display: flex;
-    justify-content: space-between;
+    gap: 25px;
     margin: 5px 25px;
 }
 
