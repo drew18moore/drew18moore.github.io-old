@@ -243,6 +243,7 @@ nav a {
     border: 1px solid white;
     border-radius: 12px;
     padding: 2px 5px;
+    text-decoration: none;
 }
 
 @media (max-width: 1250px) {
