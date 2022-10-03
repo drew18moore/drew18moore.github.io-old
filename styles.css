@@ -262,6 +262,18 @@ nav img {
     text-decoration: none;
 }
 
+/* contact page */
+#contact-main {
+    margin: 100px auto 0 auto;
+    width: 1100px;
+    height: fit-content;
+}
+
+#contact-main h1 {
+    font-size: 2.5rem;
+    padding: 15px 50px;
+}
+
 @media (max-width: 1250px) {
     #profile-card {
         width: 88%;
@@ -272,6 +284,10 @@ nav img {
     }
 
     #projects-main {
+        width: 88%;
+    }
+
+    #contact-main {
         width: 88%;
     }
 }
